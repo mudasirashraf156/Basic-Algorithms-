@@ -1,0 +1,19 @@
+<script>
+// This program finds the largest number in an array
+
+// Define the array of numbers
+const numbers = [3, 7, 2, 9, 1];
+
+// Set the initial maximum number to the first element of the array
+let maxNumber = numbers[0];
+
+// Loop through the array and update the maximum number if a larger number is found
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > maxNumber) {
+    maxNumber = numbers[i];
+  }
+}
+
+// Output the result
+console.log(`The largest number in the array is ${maxNumber}.`);
+</script>

@@ -1,0 +1,27 @@
+<script>
+// This program searches for a number in an array
+
+// Define the array of numbers
+const numbers = [3, 7, 2, 9, 1];
+
+// Define the number we're searching for
+const searchNumber = 9;
+
+// Set a flag to track if the number is found
+let found = false;
+
+// Loop through the array and check if the number is found
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] === searchNumber) {
+    found = true;
+    break;
+  }
+}
+
+// Output the result
+if (found) {
+  console.log(`${searchNumber} was found in the array.`);
+} else {
+  console.log(`${searchNumber} was not found in the array.`);
+}
+</script>
